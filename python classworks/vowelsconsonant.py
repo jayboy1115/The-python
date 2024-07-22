@@ -9,10 +9,10 @@ def count_vowels_consonants():
     for char in word_set:
         if char in 'aeiou':
             vowel_count += 1
-        elif char.isalpha():
+        else:
             consonant_count += 1
 
-    print(f"Vowels: {vowel_count}")
-    print(f"Consonants: {consonant_count}")
+    return f"Vowels: {vowel_count}\nConsonants: {consonant_count}"
 
-count_vowels_consonants()
+print(count_vowels_consonants())
+
