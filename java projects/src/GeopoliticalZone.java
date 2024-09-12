@@ -1,11 +1,11 @@
 
 enum GeopoliticalZone {
-    NORTH_EAST("Borno", "Yobe", "Bauchi", "Gombe", "Adamawa", "Taraba"),
-    NORTH_WEST("Kaduna", "Kano", "Katsina", "Sokoto", "Zamfara", "Kebbi", "Jigawa"),
-    NORTH_CENTRAL("Kwara", "Niger", "Plateau", "Benue", "Kogi", "Nasarawa", "FCT"),
-    SOUTH_SOUTH("Akwa Ibom", "Cross River", "Bayelsa", "Rivers", "Delta", "Edo"),
-    SOUTH_EAST("Abia", "Anambra", "Enugu", "Imo", "Ebonyi"),
-    SOUTH_WEST("Ogun", "Oyo", "Osun", "Ondo", "Ekiti", "Lagos");
+    NORTHEAST("Borno", "Yobe", "Bauchi", "Gombe", "Adamawa", "Taraba"),
+    NORTHWEST("Kaduna", "Kano", "Katsina", "Sokoto", "Zamfara", "Kebbi", "Jigawa"),
+    NORTHCENTRAL("Kwara", "Niger", "Plateau", "Benue", "Kogi", "Nasarawa", "FCT"),
+    SOUTHSOUTH("Akwa Ibom", "Cross River", "Bayelsa", "Rivers", "Delta", "Edo"),
+    SOUTHEAST("Abia", "Anambra", "Enugu", "Imo", "Ebonyi"),
+    SOUTHWEST("Ogun", "Oyo", "Osun", "Ondo", "Ekiti", "Lagos");
 
     private final String[] states;
 
