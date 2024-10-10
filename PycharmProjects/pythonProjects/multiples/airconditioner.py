@@ -6,11 +6,11 @@ class AirConditioner:
     def turn_on(self):
         self.is_on = True
 
-    def is_on(self):
-        return self.is_on
-
     def turn_off(self):
         self.is_on = False
+
+    def check_status(self):
+        return self.is_on
 
     def increase_temperature(self):
         if self.is_on and self.temperature < 30:
@@ -22,4 +22,3 @@ class AirConditioner:
 
     def get_temperature(self):
         return self.temperature
-

@@ -15,7 +15,7 @@ def check_even_odd(number):
 
 
 print(result)
-print(check_even_odd(9))  
+print(check_even_odd(10))  
 
 
 

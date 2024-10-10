@@ -1,0 +1,15 @@
+public static void printArray(int[][] array) {
+    // Loop through each row in the array
+    for (int[] row : array) {
+        // Loop through each cell in the row
+        for (int cell : row) {
+            // Print '*' if cell is 1, otherwise print empty space
+            if (cell == 1) {
+                System.out.print("* ");
+            } else {
+                System.out.print("  ");
+            }
+        }
+        System.out.println();
+    }
+}
